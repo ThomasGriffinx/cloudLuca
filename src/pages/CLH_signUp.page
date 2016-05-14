@@ -1,0 +1,7 @@
+<apex:page showheader="false">
+<head>
+<apex:stylesheet value="{!URLFOR($Resource.Navigation_Style)}" />
+</head> 
+        
+
+</apex:page>

@@ -1,0 +1,109 @@
+<apex:page showHeader="false">
+
+<head>
+<style>
+#logo {
+font-size: 12px;
+}
+
+#outPopUp {
+  position:absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 105%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+
+}
+#outPopUp2 {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 140%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+
+}
+
+
+</style>
+<apex:stylesheet value="{!URLFOR($Resource.Navigation_Style)}" />
+</head> 
+        
+<body>
+    <div id='cssmenu'>
+<ul>
+   <li> <apex:image value="{!URLFOR($Resource.CLH_logo)}" height="50px"/> </li>
+   <li class='active'><a href='#'>Home</a></li>
+   <li><a href='#'>Knowledge Articles</a></li>
+   <li><a href='#'>Forum</a></li>
+   <li><a href='#'>Contact</a></li> 
+   <li><a href='#'>FAQ's</a></li> 
+   <li><a href='#'>Sign Up</a></li> 
+   <li><a href='#'>Login</a></li> 
+</ul>
+    </div> 
+    
+    <br> </br>
+    
+<table align="center" style="text-align:center;font-size:16pt;" > 
+   <tr> 
+
+   </tr> 
+    <tr>
+        <td style="padding:30px;"><apex:image url="{!URLFOR($Resource.CLH_Circuit)}" width="75%" height="75%"/></td>
+        <td style="padding:30px;"><apex:image url="{!URLFOR($Resource.CLH_Design)}"  width="75%" height="75%"/></td>
+        <td style="padding:30px;"><apex:image url="{!URLFOR($Resource.CLH_Infrastructure )}" width="75%" height="75%"/></td>
+    </tr> 
+    <br/>
+    <tr> 
+        <th style="text-align:center;font-size:18pt;padding:30px;"> Research</th>
+        <th style="text-align:center;font-size:18pt;padding:30px;"> Discuss<br/></th>
+        <th style="text-align:center;font-size:18pt;padding:30px;"> Share<br/></th>
+    </tr>
+    <tr>
+    <br/>
+    </tr>
+    <tr>
+        <td style="padding:10px;">Are you someone with<br/>knowledge to share?<br/>Can your experiences<br/> help others?  </td>
+        <td style="padding:10px;">Discuss your <br/>professional and personal <br/> research or experiences <br/> on our open-source forum  </td>
+        <td style="padding:10px;">Share your ideas <br/> and opinions with <br/> like minded members  <br/> of our community </td>
+    </tr>
+    </table>
+    
+   <br> </br>
+   <br> </br>
+   <br> </br>
+   <div id = 'MissionStatement' style ="centre;font-size:16pt">
+   <div id = 'outPopUp' style = "centre;font-size:16pt">
+
+   </div>
+ 
+  
+  
+   Cloud LUCA is an opensource knowledge sharing and discussion site.  I plan on releasing the full site in about a months time with as many articles as possible from different people, from different walks of life.
+   At the moment I have a load of awesome people offering me articles + your article can be on anything. When fully released you will be able to upload your articles straight to the site and begin discussing it with our community.
+ I am trying to get my hands on data that supports my theory that OpenSource learning is more effective than sitting in a classroom.
+ <br> </br>
+The site will run for as long as it takes to gain proper data and I hope to have a few hundred members after I've applied a bit of google adwords and stuff to it. I will then use the result statistics of my site to write a compelling report, which I will then send to the education secretary and my head of school at university.
+<br> </br> 
+You can be involved by just writing me an article.  It is totally anonymous,  if you make a random email address and send me your article with a random screen name, I wont even know it's from you. My sign up process, once implemented, will only require a user name and a password.
+<br> </br> 
+This is totally not for profit – I wont be making a cent.   It's actually going to cost me money.  I firmly believe that education is of utmost importance and that our current education system is outdated and does not provide an inclusive learning environment. It doesn’t even take its users into account, you know... the students.  
+<br> </br>
+
+I hope to start to try and change this and I want you to help me.  Before my site goes live in a month or so, I want you to write me an article that contains your opinion on something that you feel passionate about and send it to tomgriffin@cloudluca.co.uk
+
+</div>  
+    
+</body>
+<div id ='logo'>
+<br> </br>
+Site developed by Tom Griffin - UNDER CONSTRUCTION. Graphics by <a href="http://www.freepik.com/">Freepik</a> from <a href="http://www.flaticon.com/">Flaticon</a> are licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a><br></br>
+For enquiries contact: tomgriffin@cloudluca.co.uk
+</div>
+
+
+</apex:page>

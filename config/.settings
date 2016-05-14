@@ -1,0 +1,19 @@
+{
+    "username": "tomgriffin@cloudluca.co.uk", 
+    "environment": "production", 
+    "project_name": "Cloud LUCA Hub", 
+    "workspace": "/Users/tomgriffin/Documents/Development/MavensMate", 
+    "org_url": "", 
+    "namespace": "", 
+    "id": "JTJD5S86F0RXTD5WS7CJ924YTKZCA9AK", 
+    "metadata_container": "1dc58000000UGBrAAO", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "StaticResource", 
+        "CustomObject", 
+        "Profile"
+    ]
+}
