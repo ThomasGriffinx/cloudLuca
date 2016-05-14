@@ -1,7 +1,52 @@
-<apex:page showheader="false">
+<apex:page showHeader="false" standardController="CLH_Users__c">
+
 <head>
+<style>
+#logo {
+font-size: 12px;
+}
+
+#outPopUp {
+  position:absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 105%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+
+}
+#outPopUp2 {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 140%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+
+}
+
+
+</style>
 <apex:stylesheet value="{!URLFOR($Resource.Navigation_Style)}" />
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
 </head> 
         
+<body>
+    <div id='cssmenu'>
+<ul>
+   <li> <apex:image value="{!URLFOR($Resource.CLH_logo)}" height="50px"/> </li>
+   <li><a href='CLH_Home'>Home</a></li>
+   <li><a href='#'>Knowledge Articles</a></li>
+   <li><a href='#'>Forum</a></li>
+   <li><a href='#'>Contact</a></li> 
+   <li><a href='#'>FAQ's</a></li> 
+   <li class='active'><a href='CLH_signUp'>Sign Up</a></li> 
+   <li><a href='#'>Login</a></li> 
+</ul>
+    </div> 
 
+    <br> </br>
+</body>
 </apex:page>
